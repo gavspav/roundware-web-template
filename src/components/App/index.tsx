@@ -95,7 +95,7 @@ export const App = () => {
 						</Stack>
 						<div>
 							<Route path='/listen'>
-								{//<ListenFilterDrawer /> delete filter drawer}
+								
 								<RoundwareMixerControl />
 							</Route>
 						</div>
