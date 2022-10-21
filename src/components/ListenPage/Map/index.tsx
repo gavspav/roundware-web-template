@@ -86,20 +86,20 @@ const RoundwareMap = (props: RoundwareMapProps) => {
 			zoom: parseInt(typeof urlZoom == 'string' ? urlZoom : '5'),
 			zoomControl: true,
 			draggable: true,
-			mapTypeControl: false,
+			mapTypeControl: true,
 			streetViewControl: false,
 			draggableCursor: 'cursor',
 			fullscreenControl: false,
 			zoomControlOptions: {
 				style: google.maps.ZoomControlStyle.SMALL,
-				position: google.maps.ControlPosition.TOP_RIGHT,
+				position: google.maps.ControlPosition.RIGHT_CENTER,
 			},
 			rotateControl: false,
 			mapTypeId: 'styled_map',
 			mapTypeControlOptions: {
 				mapTypeIds: [google.maps.MapTypeId.SATELLITE, 'styled_map'],
 				style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
-				position: google.maps.ControlPosition.BOTTOM_LEFT,
+				position: google.maps.ControlPosition.TOP_RIGHT,
 			},
 			restriction,
 		});

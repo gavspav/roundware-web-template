@@ -13,7 +13,7 @@ export const RoundwareMapStyle: google.maps.MapTypeStyle[] = [
 		elementType: 'all',
 		stylers: [
 			{
-				color: '#f2f2f2',
+				color: '#42f560',
 			},
 		],
 	},

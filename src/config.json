@@ -1,9 +1,9 @@
 {
-	"ROUNDWARE_SERVER_URL": "https://dev.roundware.com/api/2",
-	"ROUNDWARE_SERVER_BASE_URL": "https://dev.roundware.com/",
+	"ROUNDWARE_SERVER_URL": "https://audio-server.co.uk/api/2",
+	"ROUNDWARE_SERVER_BASE_URL": "https://audio-server.co.uk/",
 	"ROUNDWARE_DEFAULT_PROJECT_ID": 1,
-	"ROUNDWARE_INITIAL_LATITUDE": 50,
-	"ROUNDWARE_INITIAL_LONGITUDE": 27,
+	"ROUNDWARE_INITIAL_LATITUDE": 50.9421,
+	"ROUNDWARE_INITIAL_LONGITUDE": -2.6333,
 
 	"ALLOW_PHOTOS": true,
 	"ALLOW_TEXT": true,
@@ -26,13 +26,13 @@
 	"ALLOW_SPEAK_TAGS": false,
 
 	"AUTOPLAY": false,
-	"DEFAULT_SPEAK_TAGS": [],
+	"DEFAULT_SPEAK_TAGS": [34,28],
 
 	"AVAILABLE_LISTEN_MODES": "device",
 
-	"INFOWINDOW_DISPLAY_ITEMS": ["date", "tags", "text", "description", "audio"],
+	"INFOWINDOW_DISPLAY_ITEMS": ["date", "text", "description", "audio"],
 
-	"SPEAKERS_DISPLAY": "images",
+	"SPEAKERS_DISPLAY": "",
 	"SPEAKER_STROKE_COLORS": ["#044389", "#FCFF4B", "#FFAD05", "#7CAFC4", "#63A375", "#EF27A6"],
 
 	"AVAILABLE_LISTEN_FILTERS": ["date", "description", "tags"],
@@ -57,3 +57,4 @@
 		"walking": 22
 	}
 }
+

@@ -23,7 +23,8 @@ const useStyles = makeStyles((theme: Theme) => {
 		container: {
 			flexGrow: 1,
 			margin: 'auto',
-			marginBottom: 70,
+			marginTop: 0,
+			marginBottom: 40,
 		},
 		button: {
 			margin: 'auto',
@@ -47,7 +48,7 @@ const useStyles = makeStyles((theme: Theme) => {
 			},
 		},
 		mapContainerDiv: {
-			height: '60vh',
+			height: '40vh',
 			margin: theme.spacing(2, 0),
 			[theme.breakpoints.down('sm')]: {
 				height: '50vh',
@@ -130,19 +131,20 @@ const LocationSelectForm = () => {
 									zoom: 9,
 									zoomControl: true,
 									draggable: true,
-									mapTypeControl: false,
+									mapTypeControl: true,
 									streetViewControl: false,
 									draggableCursor: 'cursor',
 									fullscreenControl: false,
 									zoomControlOptions: {
 										style: google.maps.ZoomControlStyle.SMALL,
+										position: google.maps.ControlPosition.RIGHT_CENTER,
 									},
 									rotateControl: false,
 									mapTypeId: 'styled_map',
 									mapTypeControlOptions: {
 										mapTypeIds: [google.maps.MapTypeId.SATELLITE, 'styled_map'],
 										style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
-										position: google.maps.ControlPosition.BOTTOM_LEFT,
+										position: google.maps.ControlPosition.TOP_RIGHT,
 									},
 								});
 							}}
