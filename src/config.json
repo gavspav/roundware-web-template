@@ -9,13 +9,13 @@
 	"ALLOW_TEXT": true,
 
 	"USE_LISTEN_MAP_BOUNDS": true,
-	"SHOW_BOUNDS_MARKERS": false,
-	"MAP_BOUNDS": "none",
+	"SHOW_BOUNDS_MARKERS": true,
+	"MAP_BOUNDS": "yovil",
 	"MAP_BOUNDS_POINTS": {
-		"swLat": 3,
-		"swLng": 5,
-		"neLat": 5,
-		"neLng": 43
+		"swLat": 50.883099,
+		"swLng": -2.795820,
+		"neLat": 51.001101,
+		"neLng": -2.47078
 	},
 
 	"KEEP_PAUSED_ASSETS": true,
