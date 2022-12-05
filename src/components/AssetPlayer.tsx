@@ -23,8 +23,8 @@ const AssetPlayer = ({ asset, style, className }: AssetPlayerProps) => {
 		filename = filename.substr(0, pos < 0 ? filename.length : pos) + '.' + ext;
 	}
 
-	const audioType = `audio/${ext}`;
 
+	const audioType = `audio/${ext}`;
 	const { roundware } = useRoundware();
 	const handlePlay = () => {
 		roundware.events?.logAssetStart(asset.id);
